@@ -11,3 +11,7 @@ print formatter % (
     "But it didn't sing.",
     "so I said goodnight."
 )
+<<<<<<< HEAD
+=======
+# Justin tell me if you can view this. - Jimbo
+>>>>>>> cf53e8e475c853fbaf05da93b76d7fe155fa7b6b
