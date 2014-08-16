@@ -18,3 +18,7 @@ def method_two():
     weight = raw_input()
 
     print "So you're " + age + " years old, " + height + " tall and " + weight + " lbs heavy."
+
+
+    method_one()
+    method_two()
