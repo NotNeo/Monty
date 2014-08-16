@@ -32,4 +32,4 @@ print_a_line(current_line, current_file)
 current_line = current_line + 1
 print_a_line(current_line, current_file)
 
-#this is not printing as expected or as shown in the example. Not sure why. Thinking the general exhusation is why i'm unable to find the mistakes.
+#test.txt was created as a blank file, deleted during a previous exercise and forgot to recreate with ex18.py prior to this exercise. Problem corrected.
