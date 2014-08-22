@@ -82,6 +82,7 @@ print "With a starting point of: %d" % start_point
 print "We'd have %d beans, %d jars, and %d crates." % (jelly_beans, jars, crates)
 
 start_point /= 10
+# This is an augmented assignment which is just basically shorthand, saves RAM and interpretation time 
 
 print "We can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
