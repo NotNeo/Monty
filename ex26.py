@@ -1,13 +1,13 @@
 def break_words(words):
     """This function will break up words for us."""
     words = stuff.split(' ')
-    return words
+    return (words)
 
 def sort_words(words):
     """Sorts the words."""
     return sorted(words)
 
-def print_first_word(words)
+def print_first_word(words):
     """Prints the first word after popping it off."""
     word = words.pop(0)
     print words
@@ -37,15 +37,7 @@ def print_first_and_last_sorted(sentence):
 
 print "Let's practice everything."
 print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
-
-poem = """
-\tThe lovely world
-with logic so firmly planted
-cannot discern \n the needs of love
-nor comprehend passion from intuition
-and requires an explantion
-\n\t\twhere there is none.
-"""
+print poem = "\t The lovely world with logic so firmly planted cannot discern \n the needs of love nor comprehend passion from intuition and requires an explantion \n\t where there is none."
 
 
 print "--------------"
@@ -57,7 +49,7 @@ print "This should be five: %s" % five
 
 def secret_formula(started):
     jelly_beans = started * 500
-    jars = jelly_beans \ 1000
+    jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
 
@@ -86,6 +78,6 @@ print_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
 prin sorted_words
 
-print_irst_and_last(sentence)
+print first_and_last(sentence)
 
-   print_first_a_last_sorted(senence)
+print_first_a_last_sorted(senence)
